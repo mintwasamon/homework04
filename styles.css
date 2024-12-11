@@ -1,0 +1,92 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat+Underline:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin:0;
+    padding 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Krub", sans-serif;
+}
+.post {
+    background-color: white;
+    width: 480px;
+    margin: 50px auto;
+    border-radius: 8px
+    padding: 6px 12px;
+    box-shadow: 4px 4px 8px #bbb;
+
+}
+.row1 {
+    background-color: antiquewhite;
+    display: flex;
+    height: 32px;
+    gap: 8px;
+    align-items: center;
+    padding: 28px 4px;
+
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border: 1 px solid #aaa;
+    padding: 2px;
+    border-radius: 50%;
+    overflow: hidden;
+    border-bottom: 1px solid #aaa6;
+}
+.row1 img {
+    width:100%
+}
+.row1 input {
+    line-height: 1.5;
+    font-size: 16px;
+    /* flex-grow:1; */
+    flex-basis: 100%;
+    border: none;
+    background-color: #ddd;
+    border-radius: 16px;
+}
+.row2 {
+    /* background-color: aquamarine; */
+    margin-top: 4px;
+    display: flex;
+    height: 32px;
+    justify-content: space-between;
+}
+.row2 > * {
+    /* border:1px dashed red; */
+    /* flex-grow: 1; */
+    flex-basis: 100%;
+}
+.live, .pic, .reel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+}
+.post i {
+    color: deeppink;
+    font-size: 20px;
+}
+.post, .fa-video {
+    color: pink;
+    position: relative;
+    /* top: 4px;
+    left: 16px;
+    z-index; 1; */
+}
+.btn:hover {
+    background-color: #eee;
+}
